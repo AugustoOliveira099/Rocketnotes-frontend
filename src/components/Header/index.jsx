@@ -14,7 +14,7 @@ export function Header() {
     signOut();
   }
 
-  const avatarUrl = user.avatar ? `${api.defaults.baseURL}files/${user.avatar}` : avatarPlaceholder;
+  const avatarUrl = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatarPlaceholder;
   const altImg = `Foto do usuário ${user.name}`
 
   console.log(avatarUrl)
